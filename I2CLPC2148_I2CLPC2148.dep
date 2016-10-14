@@ -1,0 +1,27 @@
+Dependencies for Project 'I2CLPC2148', Target 'I2CLPC2148': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\I2C.c)(0x57274737)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\Stdio.h)(0x51C7E87C)
+I (Type.h)(0x5726CF10)
+I (I2C.h)(0x5726D9C6)
+I (TIMER.h)(0x5727476C)
+F (.\main.c)(0x5727498A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\Stdio.h)(0x51C7E87C)
+I (Type.h)(0x5726CF10)
+I (uart.h)(0x5727477B)
+I (I2C.h)(0x5726D9C6)
+I (TIMER.h)(0x5727476C)
+F (.\timer.c)(0x57274745)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (Type.h)(0x5726CF10)
+I (Timer.h)(0x5727476C)
+F (.\uart.c)(0x57274751)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (TYPE.h)(0x5726CF10)
+I (UART.h)(0x5727477B)
+F (.\I2C.h)(0x5726D9C6)()
+F (.\timer.h)(0x5727476C)()
+F (.\type.h)(0x5726CF10)()
+F (.\uart.h)(0x5727477B)()

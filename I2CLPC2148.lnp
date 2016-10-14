@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\i2c.o"
+".\main.o"
+".\timer.o"
+".\uart.o"
+--strict --scatter ".\I2CLPC2148.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\I2CLPC2148.map" -o .\I2CLPC2148.axf
